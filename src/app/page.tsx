@@ -14,8 +14,8 @@ const Page = () => {
   });
 
   return (
-    <div {...handlers} className={`text-center flex justify-center items-center h-screen w-screen ${swipeLeft ? 'bg-red-200' : 'bg-white'} ${swipeRight ? 'bg-green-200' : 'bg-white'}`}>
-      <button className={`drop-shadow-lg rounded-2xl p-4 ${swipeLeft ? 'bg-red-400' : 'bg-white'} ${swipeRight ? 'bg-green-400' : 'bg-white'}`}>
+    <div {...handlers} className={`text-center flex justify-center items-center h-screen w-screen ${swipeLeft ? 'bg-red-200' : ''} ${swipeRight ? 'bg-green-200' : ''}`}>
+      <button className={`drop-shadow-lg rounded-2xl p-4 ${swipeLeft ? 'bg-red-400' : ''} ${swipeRight ? 'bg-green-400' : ''}`}>
         Swipe Me!
         <br />
         Click to reset
