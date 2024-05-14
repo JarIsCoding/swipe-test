@@ -19,6 +19,10 @@ const Page = () => {
         Swipe Me!
         <br />
         Click to reset
+        <br />
+        <p className='text-slate-600'>
+        Swiping only works when in responsive inspect
+        </p>
       </button>
     </div>
   );
