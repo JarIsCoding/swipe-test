@@ -11,3 +11,35 @@ svg {
   height: 100%;
   width: 100%;
 }
+.triangleDiv{
+  clip-path: polygon(50% 50%, 0% 100%, 100% 100%);
+  background-color: green;
+}
+
+/* SwipeableComponent.module.css */
+.swipeableContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  transition: transform 0.3s ease;
+}
+
+/* Add more specific styles or classes to handle different animations */
+.swipeLeft {
+  transform: translateX(-100px);
+}
+
+.swipeRight {
+  transform: translateX(100px);
+}
+
+.swipeUp {
+  transform: translateY(-100px);
+}
+
+.swipeDown {
+  transform: translateY(100px);
+}
