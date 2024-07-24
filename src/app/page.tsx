@@ -40,30 +40,32 @@ const Page = () => {
           Click to reset
           <br />
           <p className='text-slate-600'>
-            Swiping only works when in responsive inspect
+            Swiping only works when in responsive inspect / or a phone
           </p>
         </button>
       </div>
 
-      <p className='text-center py-10'>
+      <p className='text-center py-5'>
         Click on the polygons and it will tell you the position!
       </p>
-      <p className='text-center pb-5 text-[20px]'>
+      <p className='text-center pb-5 text-[20px] font-bold'>
         {clickText}
       </p>
 
-      <div className='w-full h-full absolute'>
+      <div className='w-full h-full absolute pb-20'>
         <svg viewBox='0 0 100 100'>
-          <polygon points='-10,0 50,50 110,0' fill='blue' onClick={() => setClickText('clicked top')} />
-          <polygon points='-10,0 50,50 -10,100' fill='yellow' onClick={() => setClickText('clicked left')} />
-          <polygon points='-10,100 50,50 110,100' fill='green' onClick={() => setClickText('clicked bottom')} />
-          <polygon points='110,0 50,50 110,100' fill='red' onClick={() => setClickText('clicked right')} />
+          <polygon points='-10,0 50,50 110,0' fill='blue' onClick={() => setClickText('Clicked top')} />
+          <polygon points='-10,0 50,50 -10,100' fill='yellow' onClick={() => setClickText('Clicked left')} />
+          <polygon points='-10,100 50,50 110,100' fill='green' onClick={() => setClickText('Clicked bottom')} />
+          <polygon points='110,0 50,50 110,100' fill='red' onClick={() => setClickText('Clicked right')} />
         </svg>
       </div>
 
-      {/* <SwipeableComponent></SwipeableComponent> */}
-
-
+<div>
+      <div>
+        <img src="CookieTransparent.png" alt="" />
+      </div>
+      </div>
 
     </div>
   );
