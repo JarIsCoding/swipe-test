@@ -61,11 +61,11 @@ const Page = () => {
         </svg>
       </div>
 
-<div>
-      <div>
-        <img src="CookieTransparent.png" alt="" />
-      </div>
-      </div>
+      {/* <div>
+        <div>
+          <img src="CookieTransparent.png" alt="" />
+        </div>
+      </div> */}
 
     </div>
   );
